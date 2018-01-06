@@ -172,7 +172,7 @@ if(!$_M['config']['met_agents_app_news']){
 if(($privilege['navigation'] == 'metinfo' || strstr($privilege['navigation'], '1507')) && $_M['config']['met_agents_app'] ) {
 echo <<<EOT
 -->
-	<section class="index_hotapp index_hot">
+	<section class="index_hotapp index_hot" style="display: none">
 		<h3>{$_M['word']['recommended']}<a href="{$_M[url][site_admin]}index.php?lang={$_M[lang]}&anyid=65&n=appstore&c=appstore&a=doindex">{$_M['word']['more_applications']}<i class="fa fa-angle-right"></i></a>
 		</h3>
 		<div class="container-fluid">
@@ -276,7 +276,7 @@ EOT;
 if ($_M['config']['met_agents_type'] < 2 && !$_M['config']['met_agents_app_news']) {
 echo <<<EOT
 -->
-	<section class="index_news">
+	<section class="index_news" style="display:none;">
 		<h3>MetInfo {$_M['word']['upfiletips37']}<a href="http://www.metinfo.cn/" target="_blank">{$_M['word']['columnmore']}<i class="fa fa-angle-right"></i></a></h3>
 		<div id="newslist" data-newslisturl="http://www.metinfo.cn/metv5news.php?fromurl={$_M[config][met_weburl]}&action=json&listnum=6">
 		</div>
