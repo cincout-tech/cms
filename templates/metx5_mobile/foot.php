@@ -13,7 +13,7 @@ echo <<<EOT
 	</section>
 </footer>
 <div class="powered_by_metinfo">
-				&copy;2017-{$m_now_year} Powered&nbsp;by&nbsp;<a href="http://lmecology.com" target="_blank" title="{$lang_Info1}">MetInfo&nbsp;{$metcms_v}</a>
+				&copy;2017-{$m_now_year} Powered&nbsp;by&nbsp;<a href="http://lmecology.com" target="_blank" title="北京林淼生态环境技术有限公司">MetInfo&nbsp;{$metcms_v}</a>
 </div>
 {$foot_menu}
 <script src="{$navurl}public/ui/v1/js/sea.js" type="text/javascript"></script>

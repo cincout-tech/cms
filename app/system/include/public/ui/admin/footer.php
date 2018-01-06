@@ -8,7 +8,7 @@ echo <<<EOT
 -->
 			</div>
 			</div>
-			<div class="footer">{$foot}</div>
+			<div class="footer">©2017-2018 Powered by MetInfo 5.3.19</div>
 			</div>
 		</div>
 		<div class="clear"></div>
