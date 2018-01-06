@@ -242,7 +242,7 @@ EOT;
 }
 echo <<<EOT
 -->
-<div class="btn-group pull-right met-tool" {$met_agents_display}>
+<div class="btn-group pull-right met-tool" {$met_agents_display} style="display: none;">
 	<button class="btn btn-default dropdown-toggle" type="button" id="shouquan" data-toggle="dropdown" aria-expanded="true">
 		<i class="fa fa-bookmark"></i><span class="hidden-xs">{$_M['word']['indexcode']}</span>
 		<span class="caret"></span>
@@ -266,9 +266,9 @@ if ($key_info['authpass'] && $key_info['authcode']) {
 if(!$otherinfoauth) {
 echo <<<EOT
 -->				
-		<li class="met-tool-list text-center"><a target="_blank" class="liaojie" href="http://www.metinfo.cn/web/product.htm">{$_M['word']['sys_authorization2']}xxx</a></li>
+		<li class="met-tool-list text-center"><a target="_blank" class="liaojie" href="http://www.metinfo.cn/web/product.htm">{$_M['word']['sys_authorization2']}</a></li>
 		<li class="met-tool-list text-center">
-		<button class="btn btn-primary" type="submit" onclick="location.href = '{$_M['url']['adminurl']}&n=system&c=authcode&a=doindex';">{$_M['word']['sys_authorization1']}ss</button>
+		<button class="btn btn-primary" type="submit" onclick="location.href = '{$_M['url']['adminurl']}&n=system&c=authcode&a=doindex';">{$_M['word']['sys_authorization1']}</button>
 		</li>
 <!--
 EOT;
