@@ -266,9 +266,9 @@ if ($key_info['authpass'] && $key_info['authcode']) {
 if(!$otherinfoauth) {
 echo <<<EOT
 -->				
-		<li class="met-tool-list text-center"><a target="_blank" class="liaojie" href="http://www.metinfo.cn/web/product.htm">{$_M['word']['sys_authorization2']}</a></li>
+		<li class="met-tool-list text-center"><a target="_blank" class="liaojie" href="http://www.metinfo.cn/web/product.htm">{$_M['word']['sys_authorization2']}xxx</a></li>
 		<li class="met-tool-list text-center">
-		<button class="btn btn-primary" type="submit" onclick="location.href = '{$_M['url']['adminurl']}&n=system&c=authcode&a=doindex';">{$_M['word']['sys_authorization1']}</button>
+		<button class="btn btn-primary" type="submit" onclick="location.href = '{$_M['url']['adminurl']}&n=system&c=authcode&a=doindex';">{$_M['word']['sys_authorization1']}ss</button>
 		</li>
 <!--
 EOT;
@@ -289,8 +289,8 @@ echo <<<EOT
 		
 	</ul>
 </div>
-<div class="btn-group pull-right met-tool supportbox" {$met_agents_display}>
-	<a href="http://www.metinfo.cn/bangzhu/index.php?ver=metcms" class="btn btn-success dropdown-toggle" target="_blank">技术支xx持<a>
+<div class="btn-group pull-right met-tool supportbox" style="display: none" {$met_agents_display}>
+	<a href="http://www.metinfo.cn/bangzhu/index.php?ver=metcms" class="btn btn-success dropdown-toggle" target="_blank">技术支持<a>
 	<!--<button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
 		<i class="fa fa-life-ring"></i><span class="hidden-xs">技术支持</span>
 		<span class="caret"></span>
