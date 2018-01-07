@@ -617,7 +617,7 @@ INSERT INTO met_language VALUES('25657','dlapptips3','说明：','1','291','6','
 INSERT INTO met_language VALUES('25658','dlapptips4','版本：','1','292','6','0','cn');
 INSERT INTO met_language VALUES('25659','dlapptips5','打开','1','293','6','0','cn');
 INSERT INTO met_language VALUES('25653','mobiletips6','查看图片','1','287','6','0','cn');
-INSERT INTO met_language VALUES('25654','mobiletips7','次','1','288','6','0','cn');
+INSERT INTO met_language VALUES('25654','mobiletips7','次','1','288','6','0','cn');tips
 INSERT INTO met_language VALUES('25655','dlapptips1','已安装应用','1','289','6','0','cn');
 INSERT INTO met_language VALUES('25652','mobiletips5','没有添加相关模块的栏目','1','286','6','0','cn');
 INSERT INTO met_language VALUES('25649','mobiletips2','没有开启或添加相关功能版块','1','283','6','0','cn');

@@ -8,7 +8,7 @@ echo <<<EOT
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>{$_M[word][metinfo]}</title>
+<title>北京林淼生态环境技术有限公司</title>
 <meta name="renderer" content="webkit">
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
