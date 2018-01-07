@@ -63,7 +63,7 @@ EOT;
 echo <<<EOT
 -->
 				<div class="moretemp" style="display: none;"><a href="{$_M[url][site_admin]}index.php?anyid=65&n=appstore&c=appstore&a=dotem_market&lang={$_M[lang]}" target="_blank">{$_M['word']['skinmore']}</a></div>
-				<div style="padding:10px;text-align:center; line-height:1.5; color:#888;">{$_M['word']['installation_template']}<br/>{$_M['word']['install_application']}<a href="{$_M[url][site_admin]}index.php?n=appstore&c=appstore&a=doappdetail&type=app&no=10012&lang={$_M[lang]}&anyid=65" target="_blank">{$_M['word']['template_assistant']}</a></div>
+				<div style="padding:10px;text-align:center; line-height:1.5; color:#888; display: none">{$_M['word']['installation_template']}<br/>{$_M['word']['install_application']}<a href="{$_M[url][site_admin]}index.php?n=appstore&c=appstore&a=doappdetail&type=app&no=10012&lang={$_M[lang]}&anyid=65" target="_blank">{$_M['word']['template_assistant']}</a></div>
 			</div>
 			<div class="tabs_item" name="tabs_item_set"></div>
 			<div class="tabs_item" name="tabs_item_set"></div>
