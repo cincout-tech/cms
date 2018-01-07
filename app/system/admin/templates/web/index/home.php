@@ -71,7 +71,7 @@ EOT;
 if(!$_M['config']['met_agents_app_news']){
 echo <<<EOT
 -->	
-		<a href="http://edu.metinfo.cn/" target="_blank" {$met_agents_display}>{$_M['word']['extension_school']}<i class="fa fa-angle-right"></i></a>
+		<a href="http://edu.metinfo.cn/" style="display:none;"  target="_blank" {$met_agents_display}>{$_M['word']['extension_school']}<i class="fa fa-angle-right"></i></a>
 <!--
 EOT;
 }
