@@ -68,7 +68,7 @@ require $this->template('tem/zujian');
 echo <<<EOT
 -->
 				<h3 class="v52fmbx_hr">{$_M['word']['menu_settings']}</h3>
-<div class="moretemp">
+<div class="moretemp" style="display: none">
 <a href='{$_M[url][site_admin]}app/wap/custommenu.php?lang={$_M[lang]}&anyid=77&cs=5' target='_blank'>{$_M['word']['settings_page']}</a>
 </div>
 				</div>
