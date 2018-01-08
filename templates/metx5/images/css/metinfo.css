@@ -134,7 +134,7 @@ header h1{display:inline;}
 .tem_index_footer_contact li i{position:absolute;top:0;left:0;width:35px;height:35px;border:1px solid #424244;border-radius:5px;color:#7c7c7c;text-align:center;font-size:22px;line-height:35px;}
 .tem_index_footer_link{width:35%;}
 .tem_index_footer_link dd{padding:20px 0;}
-.tem_index_footer_link a{display:inline-block;margin:0 12px 10px 0;color:#646363;white-space:nowrap;}
+.tem_index_footer_link a{display:inline-block;margin:0 12px 10px 0;color:#dcd7d7;white-space:nowrap;}
 .tem_index_footer_link a:hover{color:#ababab;}
 .tem_index_footer_link a img{height:45px;}
 .tem_index_footer_attention{width:30%;}
