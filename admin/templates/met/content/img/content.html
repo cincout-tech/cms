@@ -204,7 +204,7 @@ echo <<<EOT
 			<dd>
 				<input name="imgurl" type="text" class="text" value="$img_list[imgurl]" data-size='$img_list[imgsize]'><!--添加属性data-size（新模板框架v2）-->
 				<input name="imgsize" type="hidden" value="$img_list[imgsize]"><!--添加<input>imgsize（新模板框架v2）-->
-				<span class="tips" {$styletip}>{$lang_modimgauto}</span>
+				<span class="tips" {$styletip}>{$lang_modimgauto} - 图片宽高比请控制在1:1左右，达到最佳显示效果</span>
 				<input name="met_upsql" type="file" id="file_upload" />
 			</dd>
 		</dl>
